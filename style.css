@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 20px;
+}
+
+.container1{
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    background-color: #d8dcdff9;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navleft{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 5px 5px;
+    padding-right: 15px;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.navleft h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navleft i{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.navright{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.navright h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navright .view{
+    font-size: 15px;
+    padding: 8px;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    /* text-align: center; */
+}
+
+.hero{
+    margin-top: 5px;
+    height: 80vh;
+    display: flex;
+}
+
+.heleft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+
+.heleft p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.heleft h1{
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.heright{
+    height: 100%;
+    width: 50%;
+}
+
+.heright img{
+    height: 100%;
+    /* transform: rotate(-15deg); */
+}
+
+.page2{
+    height: 40vh;
+    width: 95vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .centerm{
+    height: 50%;
+    background-color: blue;
+
+} */
+
+.elem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.page2 h1{
+    font-size: 50px;
+    margin-left: 5px;
+    font-weight: 400;
+    text-align: center;
+    /* letter-spacing: 2px; */
+}
+
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin: -10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.box3{
+    background-color: black;
+    color: #dbd4d4;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.box1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #e14663;
+    background-image: url(https://media.istockphoto.com/id/624929206/photo/good-morning-cheerful-woman-sitting-on-top-of-bed-enjoying.jpg?s=2048x2048&w=is&k=20&c=Gk2KcrCfnKa7DoHrrymWtVdlJZD-e5FHddmifySvgJ4=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.box2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #e14663;
+    background-image: url(https://media.istockphoto.com/id/2153799226/photo/young-man-in-a-beige-shirt-and-black-jacket-walks-confidently-through-a-modern-urban-setting.jpg?s=2048x2048&w=is&k=20&c=JmD4hRhEZKimfg5vvcNfpki61AzMgJTDNod0iAIZucc=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+
+.page3{
+    height: 80vh;
+    width: 95vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.left3{
+    height: 95%;
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left3 i{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.left3 h5{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.right3{
+    height: 90%;
+    width: 90%;
+    /* background-color: rgb(0, 119, 255); */
+}
+
+.ritop3{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.ai1,
+.ai2,
+.ai3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    line-height: 2;
+}
+
+.ai1 p,
+.ai2 p,
+.ai3 p{
+    width: 30%;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 1.3;
+}
+
+.ai1 h3,
+.ai2 h3,
+.ai3 h3{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.ai1 span,
+.ai2 span,
+.ai3 span{
+    padding: 8px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #b1adad;
+    color: black;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+
+.ribottom3{
+    height: 50%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+}
+
+.ribt1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    padding: 10px 0px;
+}
+
+.ribt1 p{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.ribt2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.btbox{
+    height: 100%;
+    width: 80%;
+    background-color: #0c7951;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.btbox h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #e5dede;
+}
+
+.btbox p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #e5dede;
+}
+
+
+
+
+
+
